@@ -1,19 +1,61 @@
 ## Smart Outfit Combination
-Usually we are dressed at any occasion randomly.But what happened when we are not going to dressed up randomly rather we use something which will
-give us some outfit combination in terms of the temperature and weather condition.
-It is calculated which types of clothing,shoes we have and what are the combination is usually perfect for that weather.
 
-## The way we use :
-First we have to chose weather condition and temperature then just click the outfit recommendations then the application give us the outfit combinations.
-There are some sort of limitions . As we are living in bangladesh and this is made of the weather condition usually we have in bangladesh. If we do noot enter 
-abnormal temperature in terms of weather condition then there will be no recommendation. I do not think this is an limitations because if there is no combination of
-weather condition and temperature then usually there will be no outfit combinations.
+We often choose our outfits randomly for different occasions. But what if we could choose our outfits more intelligently based on the weather condition and temperature?
 
-## Project Structure :
-This structure is made of AI to visualize little bit look different. Giving all the name of class,packages,html file,css file and the name of Project name then this is what we got : 
+**Smart Outfit Calculator** is a Java-based web application that helps users find suitable outfit combinations according to the occasion, weather condition and temperature. Instead of choosing clothes randomly, the application provides outfit suggestions by considering clothing types, colors, footwear and weather suitability.
 
+The application uses predefined clothing data and an outfit combination algorithm to generate suitable recommendations.
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9bfaf741-23b6-49c1-ba4e-b6eba8f9c920" />
+## How to Use
+
+Using the application is simple:
+
+1. Select your **occasion** (University, Office, Casual, Party, Wedding or Viva/Interview).
+2. Select the current **weather condition** (Sunny, Rainy or Cloudy).
+3. Enter the **temperature** in Celsius (°C).
+4. Click the **Get Outfit Recommendations** button.
+5. The application will generate suitable outfit combinations based on your inputs.
+
+The recommendations may include tops, bottoms, shoes and additional clothing items depending on the weather and temperature.
+
+## Features
+
+- Weather-based outfit recommendations.
+- Temperature-based clothing selection.
+- Occasion-based outfit combinations.
+- Color-compatible clothing combinations.
+- Suitable footwear recommendations.
+- Additional clothing suggestions according to weather and temperature.
+- Multiple outfit recommendations.
+
+## Limitations and Scope
+
+This application is designed primarily around the weather conditions and temperatures commonly experienced in Bangladesh. Therefore, the predefined clothing data and temperature ranges are adjusted to suit the local climate and typical clothing needs.
+
+If the user enters an unusual temperature for the selected weather condition, the application may not generate any outfit recommendations.
+
+However, this is not necessarily a drawback. The application is designed to recommend outfits only when suitable clothing combinations are available for the given conditions. If no suitable combination matches the selected weather and temperature, it simply does not provide a recommendation.
+
+## Project Structure
+
+The project structure was visualized using AI by providing the project name, package names, class names, HTML files and CSS file. The generated visualization gives a graphical overview of the project's organization.
+
+![Smart Outfit Calculator Project Structure](https://private-user-images.githubusercontent.com/237445019/715539763-9bfaf741-23b6-49c1-ba4e-b6eba8f9c920.png)
+
+## Technologies Used
+
+- Java 25
+- Spring Boot 4.2.0
+- Spring MVC
+- Thymeleaf
+- HTML
+- CSS
+- Maven
+
+## Project Purpose
+
+The purpose of this project is to demonstrate how Java and Spring Boot can be used to build a practical web application that combines predefined data, logical filtering and outfit recommendation algorithms to help users make better clothing choices according to weather, temperature and occasion.
+
 
 
 
