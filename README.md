@@ -40,7 +40,7 @@ However, this is not necessarily a drawback. The application is designed to reco
 
 The project structure was visualized using AI by providing the project name, package names, class names, HTML files and CSS file. The generated visualization gives a graphical overview of the project's organization.
 
-![Uploading image.png…]()
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f1f320b2-6a23-4a0d-93d9-c39e25099576" />
 
 ## Technologies Used
 
