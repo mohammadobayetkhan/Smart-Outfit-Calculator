@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Outfit Recommendations</title>
+
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+
+<body>
+
+<h1>Your Outfit Recommendations</h1>
+
+<h2>Find Your Perfect Look</h2>
+
+<div th:if="${outfits.isEmpty()}">
+    <p>Sorry! No suitable outfit was found.</p>
+</div>
+
+<div th:each="outfit, status : ${outfits}">
+
+    <h2 th:text="'Outfit Option ' + ${status.count}"></h2>
+
+    <p>
+        <strong>Top:</strong>
+        <span th:text="${outfit.top.name}"></span>
+    </p>
+
+    <p>
+        <strong>Bottom:</strong>
+        <span th:text="${outfit.bottom.name}"></span>
+    </p>
+
+    <p>
+        <strong>Shoes:</strong>
+        <span th:text="${outfit.shoes.name}"></span>
+    </p>
+
+    <p th:each="item : ${outfit.accessories}">
+        <strong>Additional Clothing:</strong>
+        <span th:text="${item.name}"></span>
+    </p>
+
+    <p>
+        <strong>Why this outfit?</strong>
+        <span th:text="${outfit.reason}"></span>
+    </p>
+
+    <hr>
+
+</div>
+
+<a href="/">Back to Home</a>
+
+</body>
+</html>
