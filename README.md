@@ -8,3 +8,45 @@ First we have to chose weather condition and temperature then just click the out
 There are some sort of limitions . As we are living in bangladesh and this is made of the weather condition usually we have in bangladesh. If we do noot enter 
 abnormal temperature in terms of weather condition then there will be no recommendation. I do not think this is an limitations because if there is no combination of
 weather condition and temperature then usually there will be no outfit combinations.
+
+## Project Structure :
+
+SmartOutfitCalculator
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.example.SmartOutfitCalculator
+│       │       │
+│       │       ├── SmartOutfitCalculatorApplication.java
+│       │       │
+│       │       ├── controller
+│       │       │   ├── HomeController.java
+│       │       │   └── SmartOutfitController.java
+│       │       │
+│       │       ├── model
+│       │       │   ├── Clothing.java
+│       │       │   └── Outfit.java
+│       │       │
+│       │       ├── enums
+│       │       │   ├── Occasion.java
+│       │       │   ├── Weather.java
+│       │       │   └── Style.java
+│       │       │
+│       │       └── service
+│       │           └── OutfitService.java
+│       │
+│       └── resources
+│           │
+│           ├── templates
+│           │   ├── index.html
+│           │   └── result.html
+│           │
+│           └── static
+│               └── style.css
+│
+└── pom.xml
+
+
+
+
