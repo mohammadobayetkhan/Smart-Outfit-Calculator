@@ -11,7 +11,8 @@ weather condition and temperature then usually there will be no outfit combinati
 
 ## Project Structure :
 
-![Uploading image.png…]()
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9bfaf741-23b6-49c1-ba4e-b6eba8f9c920" />
+
 
 
 
