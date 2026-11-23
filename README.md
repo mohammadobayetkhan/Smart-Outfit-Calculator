@@ -10,6 +10,8 @@ abnormal temperature in terms of weather condition then there will be no recomme
 weather condition and temperature then usually there will be no outfit combinations.
 
 ## Project Structure :
+This structure is made of AI to visualize little bit look different. Giving all the name of class,packages,html file,css file and the name of Project name then this is what we got : 
+
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9bfaf741-23b6-49c1-ba4e-b6eba8f9c920" />
 
