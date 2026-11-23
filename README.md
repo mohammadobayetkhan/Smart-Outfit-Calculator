@@ -40,7 +40,7 @@ However, this is not necessarily a drawback. The application is designed to reco
 
 The project structure was visualized using AI by providing the project name, package names, class names, HTML files and CSS file. The generated visualization gives a graphical overview of the project's organization.
 
-![Smart Outfit Calculator Project Structure](https://private-user-images.githubusercontent.com/237445019/715539763-9bfaf741-23b6-49c1-ba4e-b6eba8f9c920.png)
+![Uploading image.png…]()
 
 ## Technologies Used
 
