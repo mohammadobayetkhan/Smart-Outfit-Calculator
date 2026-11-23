@@ -11,41 +11,9 @@ weather condition and temperature then usually there will be no outfit combinati
 
 ## Project Structure :
 
-SmartOutfitCalculator
-│
-├── src
-│   └── main
-│       ├── java
-│       │   └── com.example.SmartOutfitCalculator
-│       │       │
-│       │       ├── SmartOutfitCalculatorApplication.java
-│       │       │
-│       │       ├── controller
-│       │       │   ├── HomeController.java
-│       │       │   └── SmartOutfitController.java
-│       │       │
-│       │       ├── model
-│       │       │   ├── Clothing.java
-│       │       │   └── Outfit.java
-│       │       │
-│       │       ├── enums
-│       │       │   ├── Occasion.java
-│       │       │   ├── Weather.java
-│       │       │   └── Style.java
-│       │       │
-│       │       └── service
-│       │           └── OutfitService.java
-│       │
-│       └── resources
-│           │
-│           ├── templates
-│           │   ├── index.html
-│           │   └── result.html
-│           │
-│           └── static
-│               └── style.css
-│
-└── pom.xml
+![Uploading image.png…]()
+
+
 
 
 
